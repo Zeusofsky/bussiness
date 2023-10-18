@@ -1,0 +1,45 @@
+export interface IZoneImage {
+    zoneimageid: number,
+    zoneid: number,
+    dateid: number,
+    contract: string,
+    zone: string,
+    ppp: number,
+    app: number,
+    img1: string,
+    imagepath1: string,
+    description1: string,
+    img2: string,
+    imagepath2: string,
+    description2: string,
+    img3: string,
+    imagepath3: string,
+    description3: string,
+}
+
+export interface IRequestZoneImage {
+    contractid: number,
+    zoneid: number,
+    dateid: number,
+    zone: string,
+    ppp: number,
+    app: number,
+    img1: File | null,
+    description1: string,
+    img2: File | null,
+    description2: string,
+    img3: File | null,
+    description3: string,
+}
+
+export interface IRequestPartialZoneImage {
+    contractid: number,
+    zoneid: number,
+    dateid: number,
+    zone: string,
+    ppp: number,
+    app: number,
+    description1: string,
+    description2: string,
+    description3: string,
+}

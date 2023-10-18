@@ -1,0 +1,18 @@
+/* .custom-calendar fieldset.MuiOutlinedInput-notchedOutline {
+   border-color: rgb(0, 0, 0, .9); 
+} 
+*/
+
+.custom-calendar .MuiOutlinedInput-input {
+  /* color: rgb(0, 0, 0, .9);  */
+  font-weight:400  !important; 
+  font-size: 10pt !important;
+}
+
+.custom-calendar .Mui-focused fieldset.MuiOutlinedInput-notchedOutline {
+  border-color: rgb(48, 171, 212, .6);
+}
+
+.custom-calendar :hover fieldset.MuiOutlinedInput-notchedOutline {
+  border-color: rgb(211, 211, 211, .6);
+}

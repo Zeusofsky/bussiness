@@ -1,0 +1,30 @@
+export interface IBudgetCost {
+    budgetcostid: number,
+    contractid: number,
+    dateid: number,
+    year: string,
+    month: string,
+    bac_r: number,
+    bac_fc: number,
+    eac_r: number,
+    eac_fc: number,
+    ev_r: number,
+    ev_fc: number,
+    ac_r: number,
+    ac_fc: number,
+    description: string,
+}
+
+export interface IRequestBudgetCost {
+    contractid: number,
+    dateid: number,
+    bac_r: number,
+    bac_fc: number,
+    eac_r: number,
+    eac_fc: number,
+    ev_r: number,
+    ev_fc: number,
+    ac_r: number,
+    ac_fc: number,
+    description: string,
+}
