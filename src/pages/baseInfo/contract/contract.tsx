@@ -13,7 +13,7 @@ interface Project {
   projectManager: string,
   // coordinator: string,
   // currency: string,
-  startOperationDate: string,
+  startOperationDate: string,         
   finishDate: string,
 }
 
